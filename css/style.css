@@ -1,0 +1,129 @@
+/*===============================================================
+
+GLOBAL
+
+===============================================================*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*===============================================================
+
+HEADER
+
+===============================================================*/
+
+.banner {
+	padding: 6em 0;
+	border-top: 1em solid #00aeef;
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*===============================================================
+
+TYPE
+
+===============================================================*/
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Gentium Book Basic', Georgia, serif;
+	font-style: italic;
+	color: #00aeef;
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #333;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #00aeef;
+}
+
+a:hover {
+	color: #50c2ed;
+}
+
+.bannerHeading, .bannerKicker {
+	text-align: center;
+}
+
+.bannerHeading {
+	margin-top: -.2em;
+	font-size: 6em;
+	color: #00aeef;
+	text-transform: uppercase;
+	text-shadow: 0 3px 0 #006991; 
+}
+
+.bannerkicker{ 
+	font-family: 'Gentium Book Basic', Georgia, serif;
+	margin-bottom: .1em;
+	font-size: 2em;
+	color: #ffffff;
+	text-shadow: 0 1px 0 #000;
+}
+
+/*===============================================================
+
+CONTENT
+
+===============================================================*/
+
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+/*===============================================================
+
+FOOTER
+
+===============================================================*/
+
+footer {
+	padding: 4em 1.5em;
+	background-color: #333; 
+	text-align: center;
+	margin-top: 4em;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+footer p {
+	color: #fff;
+}
+
+
+
+
+
+
+
