@@ -1,0 +1,12 @@
+body {
+	background: green;
+}
+
+h1, h2 {
+	color: #fff;
+	font-family: georgia;
+}
+
+p {
+	font-family: arial;
+}

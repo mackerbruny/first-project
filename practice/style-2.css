@@ -1,0 +1,84 @@
+/*===============================================================
+
+GLOBAL
+
+===============================================================*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	max-width: 540px;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+/*===============================================================
+
+HEADER
+
+===============================================================*/
+
+
+.banner {
+	padding: 6em 0;
+	border-top: 1em solid #00aeef;
+	background-image: url("img/banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*===============================================================
+
+TYPE
+
+===============================================================*/
+
+h2 {
+	font-size: 2em;
+	margin-top: 2em;
+}
+
+h3 {
+	font-family: Georgia, Times;
+	font-style: italic;
+	color: #00aeef;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #00aeef;
+}
+
+a:hover {
+	color: #006991;
+}
+
+.bannerHeading, .bannerKicker {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bannerHeading {
+	margin-top: -.2em;
+	font-size: 6em;
+	color: #00aeef;
+	text-transform: uppercase;
+	text-shadow: 0 3px 0 #006991; 
+}
+
+.bannerkicker{ 
+	margin-bottom: .1em;
+	font-size: 2em;
+	color: #ffffff;
+	text-shadow: 0 1px 0 #000;
+}
